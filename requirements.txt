@@ -1,0 +1,7 @@
+# generated from manifests external_dependencies
+unicodecsv
+cryptography
+openpyxl
+PyPDF2
+xmlschema
+zeep

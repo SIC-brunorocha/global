@@ -1,0 +1,229 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pt_self_billing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-08 15:20+0000\n"
+"PO-Revision-Date: 2021-07-08 16:29+0100\n"
+"Last-Translator: Pedro Castro Silva <pedrocs@exo.pt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: pt\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: l10n_pt_self_billing
+#: code:addons/l10n_pt_self_billing/models/account_invoice.py:52
+#, python-format
+msgid "%s - Self-billing"
+msgstr "%s - Auto-faturação"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "&amp;nbsp;<span>on</span>"
+msgstr "&amp;nbsp;<span>em</span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Valor</span>\n"
+"                                <span groups=\"account.group_show_line_subtotals_tax_included\">Total</span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<span>Description</span>"
+msgstr "<span>Descrição </span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<span>Disc.(%)</span>"
+msgstr "<span>Desc.(%)</span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<span>Quantity</span>"
+msgstr "<span>Quantidade</span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<span>Source Document</span>"
+msgstr "<span>Documento de Origem</span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<span>Taxes</span>"
+msgstr "<span>Impostos </span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<span>Unit Price</span>"
+msgstr "<span>Preço Unitário </span>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Subtotal </strong>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong>Description:</strong>"
+msgstr "<strong>Descrição:</strong>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>Vencimento:</strong>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong>Invoice Date:</strong>"
+msgstr "<strong>Data da Fatura:</strong>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong>Source:</strong>"
+msgstr "<strong>Origem:</strong>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Subtotal</strong>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "<strong>Total</strong>"
+msgstr "<strong>Total</strong>"
+
+#. module: l10n_pt_self_billing
+#: code:addons/l10n_pt_self_billing/models/account_invoice.py:27
+#, python-format
+msgid "A Self-billing invoice requires a Self-billing partner (a supplier with the Self-billing value checked."
+msgstr "Uma Auto-fatura requer um parceiro de Auto-faturação (um fornecedor com o campo Auto-faturação verdadeiro)."
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_fiscal_document_type__self_billing_partner_id
+msgid "Choose the partner that will use this fiscal document type whenissuing self-billing invoices"
+msgstr "Escolha o parceiro que utilizará este tipo de documento fiscal ao emitir auto-faturas"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model,name:l10n_pt_self_billing.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.invoice_supplier_form_self_billing
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model,name:l10n_pt_self_billing.model_fiscal_document_type
+msgid "Fiscal Document Type"
+msgstr "Tipo de Documento Fiscal"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_jira_res_users__self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_res_partner__self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_res_users__self_billing
+msgid "Indicate if the partner is under any kind of self-billing agreement"
+msgstr "Indica se há qualquer tipo de acordo de auto-faturação com o parceiro"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model,name:l10n_pt_self_billing.model_account_invoice
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.external_layout_self_billing
+msgid "Mail:"
+msgstr "E-mail:"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.external_layout_self_billing
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Pág.: <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.report_self_billing_invoice_document
+msgid "Please use the following communication for your payment :"
+msgstr "Por favor, utilize a seguinte referência no seu pagamento:"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.invoice_supplier_form_self_billing
+msgid "Print Self-bill"
+msgstr "Imprimir Auto-fatura"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_account_invoice__self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_fiscal_document_type__self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_jira_res_users__self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_res_partner__self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_res_users__self_billing
+msgid "Self Billing"
+msgstr "Auto-faturação"
+
+#. module: l10n_pt_self_billing
+#: model:fiscal.document.type,name:l10n_pt_self_billing.fiscal_document_type_ft
+#: model:ir.actions.report,name:l10n_pt_self_billing.action_report_self_billing_invoice
+msgid "Self-billing Invoice"
+msgstr "Fatura de Auto-faturação"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_fiscal_document_type__self_billing_partner_id
+msgid "Self-billing Partner"
+msgstr "Parceiro de Auto-faturação"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_fiscal_document_type__self_billing
+msgid "Set True if this document type is related to self-billing"
+msgstr "Defina como Verdadeiro se este tipo de documento estiver relacionado com auto-faturação"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_account_invoice__self_billing
+msgid "Set True if this is a self-billing invoice"
+msgstr "Escolha verdadeiro se esta for uma fatura de auto-faturação"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_res_partner__tax_auth_password
+msgid "Tax Authority Password"
+msgstr "Senha na AT"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,field_description:l10n_pt_self_billing.field_res_partner__tax_auth_username
+msgid "Tax Authority Username"
+msgstr "Utilizadodor na AT"
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.external_layout_self_billing
+msgid "Tele:"
+msgstr ""
+
+#. module: l10n_pt_self_billing
+#: code:addons/l10n_pt_self_billing/models/res_partner.py:53
+#, python-format
+msgid "The self-billing value on partner %s can only be True if the partner has no parent"
+msgstr "O valor do campo Auto-faturação no parceiro %s só pode ser Verdadeiro se este não tiver ascendente"
+
+#. module: l10n_pt_self_billing
+#: code:addons/l10n_pt_self_billing/models/res_partner.py:44
+#, python-format
+msgid "The self-billing value on partner %s can only be True if the partner is a supplier"
+msgstr "O valor do campo Auto-faturação no parceiro %s só pode ser Verdadeiro se este for um fornecedor"
+
+#. module: l10n_pt_self_billing
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_res_partner__tax_auth_password
+#: model:ir.model.fields,help:l10n_pt_self_billing.field_res_partner__tax_auth_username
+msgid "The supplier must supply this field so that the self-billing invoices can be transmitted via Tax Authority webservices."
+msgstr "O fornecedor deve fornecer este campo para que as faturas de auto-faturação possam ser transmitidas através de webservices à Autoridade Tributária."
+
+#. module: l10n_pt_self_billing
+#: model_terms:ir.ui.view,arch_db:l10n_pt_self_billing.external_layout_self_billing
+msgid "Web:"
+msgstr ""

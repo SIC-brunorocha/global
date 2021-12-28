@@ -1,0 +1,1324 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pt_accounting_tax_statement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-26 23:03+0000\n"
+"PO-Revision-Date: 2021-09-27 00:06+0100\n"
+"Last-Translator: Pedro Castro Silva <pedrocs@exo.pt>\n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_recap_statement_form
+msgid ""
+"<span class=\"o_form_label\">The recapitulative statement will consider the "
+"VAT base for all the invoice lines\n"
+"                    containing tag PT-IVA DP [7] that also relate to a "
+"partner that belongs to the Europe\n"
+"                    country group (except Portugal).</span>"
+msgstr ""
+"<span class=\"o_form_label\">A declaração recapitulativa considerará a base "
+"de IVA para todas as linhas de fatura contendo a etiqueta PT-IVA DP [7] que "
+"também digam respeito a um parceiro que pertença ao grupo de países Europa "
+"(exceto Portugal).</span>"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__recap_stmt_log_id
+msgid ""
+"A valid and reported statement found in the dataport logs. The system will "
+"try to fill this field with the most recent one."
+msgstr ""
+"Uma declaração válida e submetida/reportada encontrada nos registros de "
+"dataports. O sistema tentará preencher este campo com o mais recente."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Account Tax"
+msgstr "Conta de Imposto"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_tax_statement_search
+msgid "Account Tax Statement"
+msgstr "Declaração de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Amount"
+msgstr "Montante"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_asset
+msgid ""
+"Amount to add to field 20 regarding deductible taxes on asset operations."
+msgstr ""
+"Valor a ser adicionado ao campo 20 relativo a imposto dedutível sobre "
+"operações referentes a imobilizado."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_invent_red
+msgid ""
+"Amount to add to field 21 regarding deductible reduced rate taxes on "
+"inventory operations."
+msgstr ""
+"Valor a ser adicionado ao campo 21 relativo a imposto dedutível em que foi "
+"aplicada a taxa reduzida em operações referentes a existências."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_invent_std
+msgid ""
+"Amount to add to field 22 regarding deductible standard rate taxes on "
+"inventory operations."
+msgstr ""
+"Valor a ser adicionado ao campo 22 relativo a imposto dedutível em que foi "
+"aplicada a taxa normal em operações referentes a existências."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_invent_interm
+msgid ""
+"Amount to add to field 23 regarding deductible intermediate rate taxes on "
+"inventory operations."
+msgstr ""
+"Valor a ser adicionado ao campo 23 relativo a imposto dedutível em que foi "
+"aplicada a taxa intermédia em operações referentes a existências."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_ogs
+msgid ""
+"Amount to add to field 24 regarding deductible taxes on operations with "
+"other goods and services."
+msgstr ""
+"Valor a ser adicionado ao campo 24 relativo a imposto dedutível sobre "
+"operações referentes a outros bens e serviços."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r1_stmt_log_id
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Annex R - Region #1"
+msgstr "Anexo R - Região #1"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r2_stmt_log_id
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Annex R - Region #2"
+msgstr "Anexo R - Região #2"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_view_form
+msgid "Aux"
+msgstr "Aux"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__auxiliary
+msgid "Auxiliary"
+msgstr "Auxiliar"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_tax_statement_search
+msgid "Auxiliary Fields"
+msgstr "Campos Auxiliares"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__auxiliary
+msgid ""
+"Auxiliary elements are helper elements used for other fields computation. "
+"They are usually not shown on the statement"
+msgstr ""
+"Elementos auxiliares são elementos de apoio usados na computação de outros "
+"campos. Não são, normalmente, visíveis nas declarações"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_tax_statement__hq_location__azo
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_tax_statement__oper_location__azo
+msgid "Azores"
+msgstr "Açores"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__value_type__base_bal_total
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Base"
+msgstr ""
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__base_bal_total
+msgid "Base Balance"
+msgstr "Saldo da Base"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__base_bal_normal
+msgid "Base Balance [Normal]"
+msgstr "Saldo da Base [Normal]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__base_bal_regularization
+msgid "Base Balance [Regularization]"
+msgstr "Saldo da Base [Regularizações]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__value_type__base_bal_normal
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Base [Normal]"
+msgstr ""
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__value_type__base_bal_regularization
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Base [Regularization]"
+msgstr "Base [Regularizações]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "CONSIGNMENT"
+msgstr "CONSIGNAÇÃO"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__company_id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__company_id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__company_id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Consignment Invoices"
+msgstr "Faturas de Consignação"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Consignment Returns"
+msgstr "Devoluções de Consignação"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_tax_statement__hq_location__cnt
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_tax_statement__oper_location__cnt
+msgid "Continent"
+msgstr "Continente"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__create_uid
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__create_uid
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__create_uid
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__create_date
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__create_date
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__create_date
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__custom
+msgid "Custom"
+msgstr "Personalizado"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_account_tax_statement__custom
+msgid ""
+"Custom statements are created and maintained by users. Can be copied from "
+"non-custom (system) statements or created from scratch. System statements "
+"can't be edited."
+msgstr ""
+"As declarações personalizadas são criadas e mantidas pelos utilizadores. "
+"Podem ser copiadas a partir de declarações não personalizadas (sistema) ou "
+"criadas de raiz. Declarações de sistema não podem ser editadas."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_dataport_log
+msgid "Dataport Log"
+msgstr "Registo de Dataports"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__date_from
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__date_from
+msgid "Date From"
+msgstr "Data Inicial"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__date_to
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__date_to
+msgid "Date To"
+msgstr "Data Final"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_asset
+msgid "Deductible Tax - Assets"
+msgstr "Imposto Dedutível - Imobilizado"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_invent_interm
+msgid "Deductible Tax - Interm. Rate Inventory"
+msgstr "Imposto Dedutível - Invent. Tx. Intermédia"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_ogs
+msgid "Deductible Tax - OGS"
+msgstr "Imposto Dedutível - OBS"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_invent_red
+msgid "Deductible Tax - Red. Rate Inventory"
+msgstr "Imposto Dedutível - Invent. Tx. Reduzida"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__deduct_tax_invent_std
+msgid "Deductible Tax - Std. Rate Inventory"
+msgstr "Imposto Dedutível - Invent. Tx. Normal"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__description
+msgid "Description"
+msgstr "Descrição"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_dataport_log__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__display_name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__display_name
+msgid "Display Name"
+msgstr "Nome a Apresentar"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.constraint,message:l10n_pt_accounting_tax_statement.constraint_account_tax_statement_line_tax_stmt_line_uniq
+msgid "Element names must be unique !"
+msgstr "Os nomes dos elementos devem ser únicos!"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_view_form
+msgid "Elements"
+msgstr "Elementos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/models/account_tax_statement.py:0
+#, python-format
+msgid "Empty Value Type field on element: %s"
+msgstr "Tipo de valor vazio no elemento: %s"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__error
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__error
+msgid "Error"
+msgstr "Erro"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__export_pdf_button
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__export_pdf_button
+msgid "Export Pdf Button"
+msgstr "Botão Exportar PDF"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__export_xml_button
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__export_xml_button
+msgid "Export Xml Button"
+msgstr "Botão Exportar XML"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__source_type__expr
+msgid "Expression"
+msgstr "Expressão"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Extra Deductible Taxes"
+msgstr "Imposto Dedutível Adicional"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__data
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__data
+msgid "File"
+msgstr "Ficheiro"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__filename
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__filename
+msgid "Filename"
+msgstr "Nome do ficheiro"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__source_type__domain
+msgid "Filter"
+msgstr "Filtro"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__format
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__format
+msgid "Format"
+msgstr "Formato"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__exclusion_tag_ids
+msgid "Global Exclusion Tags"
+msgstr "Etiq. de Excl. Global"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__inclusion_tag_ids
+msgid "Global Inclusion Tags"
+msgstr "Etiq. de Incl. Global"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Goods"
+msgstr "Bens"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__hq_location
+msgid "HQ Location"
+msgstr "Localização da Sede"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__has_move_lines
+msgid "Has Move Lines"
+msgstr "Tem Linhas de Movimentos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_search_view
+msgid "Has move lines"
+msgstr "Tem linhas de movimentos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_dataport_log__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__id
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "INVOICING"
+msgstr "FATURAÇÃO"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_account_tax_statement__active
+msgid ""
+"If the active field is set to False, it will allow you to hide the tax "
+"statement without removing it."
+msgstr ""
+"Se o campo ativo não for selecionado, permitirá que oculte a declaração de "
+"impostos sem a eliminar."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__paid_tax_import_amount
+msgid "Import. w/ paid tax - Amount"
+msgstr "Importações com Liq. de Imposto - Valor do Imposto"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__paid_tax_import_base
+msgid "Import. w/ paid tax - Base"
+msgstr "Importações com Liq. de Imposto - Valor da Base"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__info
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__info
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_recap_statement_form
+msgid "Info"
+msgstr ""
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__log_on_close
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__log_on_close
+msgid ""
+"Insert a record in the dataport log together with a copy of the imported or "
+"exported file. "
+msgstr ""
+"Inserir uma entrada no registo do dataports juntamente com uma cópia do "
+"ficheiro importado ou gerado. "
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement__type__any_internal
+msgid "Internal Use"
+msgstr "Uso Interno"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/models/account_tax_statement.py:0
+#, python-format
+msgid "Invalid Source field on element: %s"
+msgstr "O campo Origem é inválido para o elemento: %s"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_view_form
+msgid "Invert"
+msgstr "Inverter"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__value_invert
+msgid "Invert value"
+msgstr "Inverter Valor"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__journal_ids
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__journal_ids
+msgid "Journals"
+msgstr "Diários"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_dataport_log____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement____last_update
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement____last_update
+msgid "Last Modified on"
+msgstr "Modific. pela última vez em"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__write_uid
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__write_uid
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__write_uid
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__write_uid
+msgid "Last Updated by"
+msgstr "Atualizado pelo últ. vez por"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__write_date
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__write_date
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__write_date
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__write_date
+msgid "Last Updated on"
+msgstr "Atualizado pelo últ. vez em"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__log_as_reported
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__log_as_reported
+msgid "Log As Reported"
+msgstr "Registar como Submetido"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__log_on_close
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__log_on_close
+msgid "Log On Close"
+msgstr "Registar ao Fechar"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_tax_statement__hq_location__mad
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_tax_statement__oper_location__mad
+msgid "Madeira"
+msgstr ""
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__name
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__oper_location
+msgid "Operations Location"
+msgstr "Localização das Operações"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Other"
+msgstr "Outros"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__overdue
+msgid "Overdue"
+msgstr "Fora de Prazo"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__pdf_form_path
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__pdf_form_path
+msgid "PDF Form Path"
+msgstr "Caminho do Formulário PDF"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Paid Tax Imports"
+msgstr "Importações com Liq. de Imposto"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__period
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__period
+msgid "Period"
+msgstr "Período"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Please insert a VAT No. on customer %s and try again."
+msgstr "Por favor, insira um NIF no cliente %s e tente novamente."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__previous_excess
+msgid "Previous Excess"
+msgstr "Excesso do Período Anterior"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Previous Period"
+msgstr "Período Anterior"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__previous_stmt_log_id
+msgid "Previous Statement"
+msgstr "Declaração Anterior"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Recap. Statement"
+msgstr "Declaração Recap."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__dataport_log__type__vat_recap
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__wizard_recap_statement__statement_type__vat_recap
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_dataport_log_filter
+msgid "Recapitulative Declaration"
+msgstr "Declaração Recapitulativa"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.actions.act_window,name:l10n_pt_accounting_tax_statement.action_wizard_recap_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__recap_stmt_log_id
+#: model:ir.ui.menu,name:l10n_pt_accounting_tax_statement.wizard_recap_statement_menu
+msgid "Recapitulative Statement"
+msgstr "Declaração Recapitulativa"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__recap_total
+msgid "Recapitulative Statement Total"
+msgstr "Total da Decl. Recapitulativa"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r1_favourable_tax
+msgid "Region #1 Favourable Tax"
+msgstr "Imposto Favorável da Região #1"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r1_unfavourable_tax
+msgid "Region #1 Unfavourable Tax"
+msgstr "Imposto Desfavorável da Região #1"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r2_favourable_tax
+msgid "Region #2 Favourable Tax"
+msgstr "Imposto Favorável da Região #2"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r2_unfavourable_tax
+msgid "Region #2 Unfavourable Tax"
+msgstr "Imposto Desfavorável da Região #2"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_tax_statement_search
+msgid "Regular Fields"
+msgstr "Campos Regulares"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_bank_statement_line__is_regularization
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_move__is_regularization
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_payment__is_regularization
+msgid "Regularization"
+msgstr "Regularização"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__request_refund
+msgid "Request Refund"
+msgstr "Solicitar Reembolso"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__sequence
+msgid "Sequence"
+msgstr "Sequência"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "Services"
+msgstr "Serviços"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__log_as_reported
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__log_as_reported
+msgid ""
+"Set True if the file has been successfully submitted to the intended "
+"destination. In that case the dataport log record will be marked as Reported."
+msgstr ""
+"Indique Verdadeiro se o ficheiro foi devidamente submetido no destino "
+"pretendido. Nesse caso, a entrada no registo de dataports será assinalada "
+"como Submetida."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__substitution
+msgid ""
+"Set True if you have previously reported a recapitulative statement for the "
+"same period and wish to substitute that statement for this one. The "
+"configuration of the substitution details are out of the scope of this "
+"report and must be performed in the Tax Authorities website."
+msgstr ""
+"Assinale como Verdadeiro se relatou anteriormente uma declaração "
+"recapitulativa para o mesmo período e deseja substituir essa declaração por "
+"esta. A configuração dos detalhes da substituição está fora do âmbito deste "
+"relatório e deve ser realizada no site da AT."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__request_refund
+msgid "Set True if you wish to request a VAT refund (if any)"
+msgstr ""
+"Assinale como Verdadeiro se deseja solicitar um reembolso do IVA (se "
+"aplicável)"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__source
+msgid "Source"
+msgstr "Origem"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__source_type
+msgid "Source Type"
+msgstr "Tipo de Origem"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/models/account_tax_statement.py:0
+#, python-format
+msgid "Source field is mandatory when Source Type is Expression. Element: %s"
+msgstr ""
+"O campo Origem é obrigatório quando o Tipo de Origem é Expressão. Elemento: "
+"%s"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__state
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__state
+msgid "State"
+msgstr "Estado"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__statement_id
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "Statement"
+msgstr "Declaração"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__statement_id
+msgid "Statement Reference"
+msgstr "Linha da Declaração"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__statement_type
+msgid "Statement Type"
+msgstr "Tipo de Declaração"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__substitution
+msgid "Substitution"
+msgstr "Substituição"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_account_tax
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__value_type__tax_bal_total
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Tax"
+msgstr "Imposto"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_tax_statement.py:0
+#, python-format
+msgid "Tax <b>%s</b> has no periodic statement tag.<br>"
+msgstr ""
+"O imposto <b>%s</b> não tem nenhuma etiqueta de declaração periódica.<br>"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__tax_bal_total
+msgid "Tax Balance"
+msgstr "Saldo de Imposto"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__tax_bal_normal
+msgid "Tax Balance [Normal]"
+msgstr "Saldo da Base [Normal]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax__tax_bal_regularization
+msgid "Tax Balance [Regularization]"
+msgstr "Saldo de Imposto [Regularizações]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.actions.act_window,name:l10n_pt_accounting_tax_statement.tax_balance_tree_action
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_search_view
+msgid "Tax Balances"
+msgstr "Saldos de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_account_tax_statement
+msgid "Tax Statement"
+msgstr "Declaração de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_account_tax_statement_line
+msgid "Tax Statement Line"
+msgstr "Linha da Declaração de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__line_ids
+msgid "Tax Statement Lines"
+msgstr "Linha da Declaração de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.actions.act_window,name:l10n_pt_accounting_tax_statement.action_account_tax_statement_template_form
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_view_search
+msgid "Tax Statement Template"
+msgstr "Modelo de Declaração de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_line_view_form
+msgid "Tax Statement Template Line"
+msgstr "Linha de Modelo de Declaração de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.actions.act_window,name:l10n_pt_accounting_tax_statement.action_account_tax_statement_template_list
+#: model:ir.ui.menu,name:l10n_pt_accounting_tax_statement.menu_account_report_tax_statement_template
+msgid "Tax Statement Templates"
+msgstr "Modelos de Decl. de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.actions.act_window,name:l10n_pt_accounting_tax_statement.action_tax_statement_line_tree
+#: model:ir.actions.act_window,name:l10n_pt_accounting_tax_statement.action_wizard_tax_statement
+#: model:ir.ui.menu,name:l10n_pt_accounting_tax_statement.wizard_tax_statement_menu
+msgid "Tax Statements"
+msgstr "Declarações de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__tax_tag_ids
+msgid "Tax Tags"
+msgstr "Etiquetas de Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__value_type__tax_bal_normal
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Tax [Normal]"
+msgstr "Imposto [Normal]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement_line__value_type__tax_bal_regularization
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.tax_balance_tree_view
+msgid "Tax [Regularization]"
+msgstr "Imposto [Regularizações]"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.account_tax_statement_template_view_form
+msgid "Taxes"
+msgstr "Impostos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid ""
+"The Europe country group cannot be found. Please update the base module."
+msgstr ""
+"O grupo de países Europa não pode ser encontrado. Por favor, atualize o "
+"módulo base."
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid ""
+"The VAT No. is missing on a customer belonging to the country with code %s. "
+"Please insert it and try again."
+msgstr ""
+"Falta o NIF de um cliente pertencente ao país com o código %s. Por favor, "
+"insira-o e tente novamente."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__exclusion_tag_ids
+msgid ""
+"These tags will be implicitly added to the filter on every Filter type "
+"statement line so that no tax containing one of them is ever selected."
+msgstr ""
+"Estas etiquetas serão implicitamente adicionadas ao filtro em cada linha de "
+"declaração do tipo Filtro, de maneira a que nenhum imposto contendo qualquer "
+"uma delas seja selecionado."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__inclusion_tag_ids
+msgid ""
+"These tags will be implicitly added to the filter on every Filter type "
+"statement line so that only taxes containing one of them are selected."
+msgstr ""
+"Estas etiquetas serão implicitamente adicionadas ao filtro em cada linha de "
+"declaração do tipo Filtro, de modo que apenas impostos contendo um deles "
+"sejam selecionados."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__recap_total
+msgid ""
+"Total of the tax base as declared in the recapitulative statement regarding "
+"the same period. The system will try to get this value from the log entry."
+msgstr ""
+"Total da base tributária conforme declarado na declaração recapitulativa "
+"relativa ao mesmo período. O sistema tentará obter este valor a partir da "
+"entrada do registo de dataports."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__error
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__error
+msgid "True if there's an error or warning in the dataport operation"
+msgstr "Verdadeiro se houve um erro ou aviso na operação do dataport"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement__type
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_dataport_log__type
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__statement_type
+#, python-format
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/models/account_tax.py:0
+#, python-format
+msgid "Unsupported search operator"
+msgstr "Operador de busca não suportado"
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_recap_statement.py:0
+#, python-format
+msgid "VAT No."
+msgstr "NIF"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement__type__vat_periodic
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__dataport_log__type__vat_periodic
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_dataport_log_filter
+msgid "VAT Periodic Declaration"
+msgstr "Declaração Periódica do IVA"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement__type__vat_periodic_annexr
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_dataport_log_filter
+msgid "VAT Periodic Declaration - Annex R"
+msgstr "Declaração Periódica do IVA - Anexo R"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__dataport_log__type__vat_periodic_r_azo
+msgid "VAT Periodic Declaration - Annex R Azores"
+msgstr "Declaração Periódica do IVA - Anexo R Açores"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__dataport_log__type__vat_periodic_r_cnt
+msgid "VAT Periodic Declaration - Annex R Continent"
+msgstr "Declaração Periódica do IVA - Anexo R Continente"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__dataport_log__type__vat_periodic_r_mad
+msgid "VAT Periodic Declaration - Annex R Madeira"
+msgstr "Declaração Periódica do IVA - Anexo R Madeira"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__account_tax_statement__type__vat_yearly
+#: model:ir.model.fields.selection,name:l10n_pt_accounting_tax_statement.selection__dataport_log__type__vat_yearly
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_dataport_log_filter
+msgid "VAT Yearly Declaration"
+msgstr "Declaração Anual do IVA"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__validate
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__validate
+msgid "Validate"
+msgstr "Validar"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__value
+msgid "Value"
+msgstr "Valor"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_account_tax_statement_line__value_type
+msgid "Value Type"
+msgstr "Tipo de Valor"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__paid_tax_import_base
+msgid ""
+"Value of field 18: total tax base regarding import operations of goods for "
+"which the VAT is already paid for."
+msgstr ""
+"Valor do campo 19: valor da base tributável referente a operações de "
+"importação de mercadorias em que o imposto foi liquidado pelo declarante."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__paid_tax_import_amount
+msgid ""
+"Value of field 19: total tax amount regarding import operations of goods for "
+"which the VAT is already paid for."
+msgstr ""
+"Valor do campo 19: valor total do imposto liquidado pelo declarante "
+"referente a operações de importação de mercadorias."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r1_favourable_tax
+msgid ""
+"Value of field 63 of the annex R related to the #1 location of external "
+"operations."
+msgstr ""
+"Valor do campo 63 do anexo R relacionado com a localização #1 das operações "
+"externas à sede."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r2_favourable_tax
+msgid ""
+"Value of field 63 of the annex R related to the #2 location of external "
+"operations."
+msgstr ""
+"Valor do campo 63 do anexo R relacionado com a localização #2 das operações "
+"externas à sede."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r1_unfavourable_tax
+msgid ""
+"Value of field 64 of the annex R related to the #1 location of external "
+"operations."
+msgstr ""
+"Valor do campo 64 do anexo R relacionado com a localização #1 das operações "
+"externas à sede."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__annex_r2_unfavourable_tax
+msgid ""
+"Value of field 64 of the annex R related to the #2 location of external "
+"operations."
+msgstr ""
+"Valor do campo 64 do anexo R relacionado com a localização #2 das operações "
+"externas à sede."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__previous_excess
+msgid "Value of field 96 of the previous periodic VAT statement"
+msgstr "Valor do campo 96 da declaração periódica anterior"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__values
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__values
+msgid "Values"
+msgstr "Valores"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "View"
+msgstr "Ver"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.view_tax_statement_line_tree
+msgid "View field taxes"
+msgstr "Ver taxas do campo"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__warnings
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__warnings
+msgid "Warnings"
+msgstr "Avisos"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__validate
+#: model:ir.model.fields,help:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__validate
+msgid ""
+"When enabled the file will undergo a technical inspection (XSD schema) "
+"before being delivered to the user. As it's a very time consuming task, you "
+"may want to disable it when a large file is expected.\n"
+"Uncheck when you prefer to use an external validator."
+msgstr ""
+"Quando ativo, o ficheiro é submetido a uma inspeção técnica (esquema XSD) "
+"antes de ser entregue ao utilizador, evitando-se assim perdas de tempo no "
+"seu envio. Dado que a validação é uma tarefa demorada, é possível que a "
+"queira desativar quando espera obter um grande ficheiro.\n"
+"Desative esta opção se preferir usar um validador externo."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__xml_default_urn
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_recap_statement__xml_schema_path
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__xml_default_urn
+#: model:ir.model.fields,field_description:l10n_pt_accounting_tax_statement.field_wizard_tax_statement__xml_schema_path
+msgid "XML Default URN"
+msgstr "Padrão de XML URN"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[18] Tax Base"
+msgstr "[18] Base Tributável"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[19] Tax Amount"
+msgstr "[19] Imposto"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[20] Assets"
+msgstr "[20] Imobilizado"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[21] Red. Rate Invent."
+msgstr "[23] Invent. Tx. Reduz."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[22] Std. Rate Invent."
+msgstr "[23] Invent. Tx. Normal"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[23] Intrm. Rate Invent."
+msgstr "[23] Invent. Tx. Interm."
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[24] Other Goods/Serv."
+msgstr "[24] Out. Bens e Serviços"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[61] Excess"
+msgstr "[61] Excesso"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[63] Favourable Tax"
+msgstr "[63] Imposto Favorável"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[64] Unfavourable Tax"
+msgstr "[64] Imposto Desfavorável"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model_terms:ir.ui.view,arch_db:l10n_pt_accounting_tax_statement.wizard_tax_statement_form
+msgid "[7] Total"
+msgstr ""
+
+#. module: l10n_pt_accounting_tax_statement
+#: code:addons/l10n_pt_accounting_tax_statement/wizards/wizard_tax_statement.py:0
+#, python-format
+msgid "to"
+msgstr "a"
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_wizard_recap_statement
+msgid "wizard.recap_statement"
+msgstr ""
+
+#. module: l10n_pt_accounting_tax_statement
+#: model:ir.model,name:l10n_pt_accounting_tax_statement.model_wizard_tax_statement
+msgid "wizard.tax_statement"
+msgstr ""
+
+#~ msgid "Excel File"
+#~ msgstr "Ficheiro Excel"
+
+#~ msgid "Export"
+#~ msgstr "Exportar"
+
+#~ msgid "Month - Current"
+#~ msgstr "Mês Corrente"
+
+#~ msgid "Month - Last"
+#~ msgstr "Mês Passado"
+
+#~ msgid "PDF File"
+#~ msgstr "Ficheiro PDF"
+
+#~ msgid "Quarter - Current"
+#~ msgstr "Trimestre Corrente"
+
+#~ msgid "Quarter - Last"
+#~ msgstr "Trimestre Passado"
+
+#~ msgid "Stock - Inventory"
+#~ msgstr "Stock - Inventário"
+
+#~ msgid "Stock - Movement"
+#~ msgstr "Stock - Movimento"
+
+#~ msgid "Text File"
+#~ msgstr "Ficheiro de Texto"
+
+#~ msgid "XML File"
+#~ msgstr "Ficheiro XML"
+
+#~ msgid "Year - Current"
+#~ msgstr "Ano Corrente"
+
+#~ msgid "Year - Last"
+#~ msgstr "Ano Passado"
+
+#~ msgid "download"
+#~ msgstr "transferir"
+
+#~ msgid "select"
+#~ msgstr "selecionar"
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid ""
+#~ "True if a recapitulative statement has been declared for the same period. "
+#~ "The system will try to automatically fill this field if there's a valid "
+#~ "XML file saved in the dataport log."
+#~ msgstr ""
+#~ "Verdadeiro se foi submetida uma declaração recapitulativa para o mesmo "
+#~ "período. O sistema tentará preencher automaticamente este campo se houver "
+#~ "um arquivo XML válido guardado no registo de dataports."
+
+#~ msgid ""
+#~ "You must indicate a filter. To do that, make sure to mark the checkbox "
+#~ "that selects all the filtered taxes"
+#~ msgstr ""
+#~ "É necessário indicar um filtro. Para isso, certifique-se de que assinala "
+#~ "a checkbox que seleciona todos os impostos filtrados"
+
+#~ msgid "Dates must belong to the same year"
+#~ msgstr "As datas devem pertencer ao mesmo ano"
+
+#~ msgid "View Taxes"
+#~ msgstr "Ver Impostos"
+
+#~ msgid "Tax <b>%s</b> has more than one periodic statement tag.<br>"
+#~ msgstr ""
+#~ "O imposto <b>%s</b> tem mais de uma etiqueta de declaração periódica.<br>"
+
+#~ msgid "Balance"
+#~ msgstr "Saldo"
+
+#~ msgid "Balance Refund"
+#~ msgstr "Saldo de Créditos"
+
+#~ msgid "Total Base Balance"
+#~ msgstr "Saldo Total da Base"
+
+#~ msgid "VAT - Periodic Declaration"
+#~ msgstr "IVA - Declaração Periódica"
+
+#~ msgid "VAT - Recap. Declaration"
+#~ msgstr "IVA - Declaração Recapit."
+
+#~ msgid "VAT - Yearly Declaration"
+#~ msgstr "IVA - Declaração Anual"
+
+#~ msgid "None."
+#~ msgstr "Nenhum."
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Label"
+#~ msgstr "Rótulo"
+
+#~ msgid "Type of validation to apply on the output file."
+#~ msgstr "Tipo de validação a aplicar ao ficheiro produzido."
+
+#~ msgid "Update"
+#~ msgstr "Atualizar"
+
+#~ msgid "Update Statement Template"
+#~ msgstr "Atualizar Modelo de Declaração"
+
+#~ msgid "Validation Type"
+#~ msgstr "Tipo de Validação"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "All Entries"
+#~ msgstr "Todos os lançamentos"
+
+#~ msgid "All Posted Entries"
+#~ msgstr "Todos os movimentos confirmados"
+
+#~ msgid "Attachments"
+#~ msgstr "Anexos"
+
+#~ msgid "Date range"
+#~ msgstr "Período"
+
+#~ msgid "From date"
+#~ msgstr "Desde"
+
+#~ msgid "Incl."
+#~ msgstr "Incl."
+
+#~ msgid "Perc."
+#~ msgstr "Perc."
+
+#~ msgid "Scope"
+#~ msgstr "Âmbito"
+
+#~ msgid "Target Moves"
+#~ msgstr "Movimentos Alvo"
+
+#~ msgid "To date"
+#~ msgstr "Até"
+
+#~ msgid "You selected 'List' but no list of taxes has been provided"
+#~ msgstr "Selecionou 'Lista' mas não especificou uma lista de impostos"
+
+#~ msgid "Autonomous Taxation"
+#~ msgstr "Tributação Autónoma"
+
+#~ msgid "Genre"
+#~ msgstr "Género"
+
+#~ msgid "Rate"
+#~ msgstr "Taxa"
+
+#~ msgid "Stamp Duty"
+#~ msgstr "Imposto de Selo"
+
+#~ msgid "VAT"
+#~ msgstr "IVA"
+
+#~ msgid "Withholding Tax"
+#~ msgstr "Retenção na Fonte"
+
+#~ msgid "Domain Wizard"
+#~ msgstr "Assistente de Domínio"
+
+#~ msgid "Statement Fields"
+#~ msgstr "Campos da Declaração"
