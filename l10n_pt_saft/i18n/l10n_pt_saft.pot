@@ -1,0 +1,336 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pt_saft
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-08 14:05+0000\n"
+"PO-Revision-Date: 2021-09-08 14:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields.selection,name:l10n_pt_saft.selection__dataport_export_saft__type__c
+msgid "Accounting"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid "Code"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid "Column"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__company_id
+msgid "Company"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__date_from
+msgid "Date From"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__date_to
+msgid "Date To"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid "Description"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__display_name
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_fiscal_document__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/models/account_payment.py:0
+#, python-format
+msgid ""
+"Document %s isn't associated with any account moves. Please fix the "
+"situation before proceeding."
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__error
+msgid "Error"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__export_pdf_button
+msgid "Export Pdf Button"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.actions.act_window,name:l10n_pt_saft.action_wizard_dataport_export_saft
+#: model:ir.ui.menu,name:l10n_pt_saft.menu_pt_dataport_export_saft
+msgid "Export SAF-T"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model,name:l10n_pt_saft.model_dataport_export_saft
+msgid "Export SAF-T PT Dataport"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__export_xml_button
+msgid "Export Xml Button"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__data
+msgid "File"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__filename
+msgid "Filename"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model,name:l10n_pt_saft.model_fiscal_document
+msgid "Fiscal Document"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__format
+msgid "Format"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_move_line__id
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__id
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_fiscal_document__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,help:l10n_pt_saft.field_dataport_export_saft__type
+msgid ""
+"Indicate the data scope to export. Select 'Accounting' if you just want "
+"accounting data (invoicing is exported through another software package). "
+"Select 'Invoicing' to exclusively generate invoicing data (your bookkeeping "
+"is outsourced). Select 'Integrated' if this Odoo instance is helding both "
+"your invoicing and accounting functions)."
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__info
+msgid "Info"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,help:l10n_pt_saft.field_dataport_export_saft__log_on_close
+msgid ""
+"Insert a record in the dataport log together with a copy of the imported or "
+"exported file. "
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid "Insufficient number of columns on validator output"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields.selection,name:l10n_pt_saft.selection__dataport_export_saft__type__i
+msgid "Integrated"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields.selection,name:l10n_pt_saft.selection__dataport_export_saft__type__f
+msgid "Invoicing"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__is_installed_accounting
+msgid "Is Installed Accounting"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__is_installed_sale
+msgid "Is Installed Sale"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__is_installed_stock
+msgid "Is Installed Stock"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model,name:l10n_pt_saft.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model,name:l10n_pt_saft.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__journal_ids
+msgid "Journals"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_payment____last_update
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_account_tax____last_update
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft____last_update
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_fiscal_document____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid "Line"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__log_as_reported
+msgid "Log As Reported"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__log_on_close
+msgid "Log On Close"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model,name:l10n_pt_saft.model_account_payment
+msgid "Payments"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__period
+msgid "Period"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,help:l10n_pt_saft.field_dataport_export_saft__log_as_reported
+msgid ""
+"Set True if the file has been successfully submitted to the intended "
+"destination. In that case the dataport log record will be marked as "
+"Reported."
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__state
+msgid "State"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__statement_type
+msgid "Statement Type"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model,name:l10n_pt_saft.model_account_tax
+msgid "Tax"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/models/account_tax.py:0
+#, python-format
+msgid "Tax %s should have a tag mentioning the tax region"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid ""
+"The SAF-T file has been successfully generated but it couldn't be validated."
+" Please contact your Odoo service provider or try an alternative validation "
+"process. Error: %s"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid "The file has been validated!"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: code:addons/l10n_pt_saft/wizards/dataport_export_saft.py:0
+#, python-format
+msgid ""
+"The selected type can only be used when the Accounting module is installed. "
+"Choose Invoicing instead."
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,help:l10n_pt_saft.field_dataport_export_saft__error
+msgid "True if there's an error or warning in the dataport operation"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__type
+msgid "Type"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__validate
+msgid "Validate"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__values
+msgid "Values"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,field_description:l10n_pt_saft.field_dataport_export_saft__warnings
+msgid "Warnings"
+msgstr ""
+
+#. module: l10n_pt_saft
+#: model:ir.model.fields,help:l10n_pt_saft.field_dataport_export_saft__validate
+msgid ""
+"When enabled the file will undergo a technical inspection (XSD schema) before being delivered to the user. As it's a very time consuming task, you may want to disable it when a large file is expected.\n"
+"Uncheck when you prefer to use an external validator."
+msgstr ""

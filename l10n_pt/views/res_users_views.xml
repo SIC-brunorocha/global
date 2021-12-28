@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_users_form" model="ir.ui.view">
+        <field name="name">res.users.form</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form" />
+        <field name="arch" type="xml">
+            <group name="messaging" position="after">
+                <group name="tax_authority" string="Tax Authority" groups="base.group_user">
+                    <field
+                        name="tax_auth_username"
+                        string="Username"
+                    />
+                    <field
+                        name="tax_auth_password"
+                        string="Password"
+                        password="True"
+                    />
+                </group>
+            </group>
+        </field>
+    </record>
+
+    <record id="view_users_form_simple_modif" model="ir.ui.view">
+        <field name="name">res.users.preferences.form</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form_simple_modif" />
+        <field name="arch" type="xml">
+            <group name="preferences" position="after">
+                <group
+                    name="tax_authority"
+                    string="Tax Authority"
+                    col="4"
+                    groups="base.group_user"
+                >
+                    <field
+                        name="tax_auth_username"
+                        class="oe_inline"
+                        string="Username"
+                        readonly="0"
+                    />
+                    <field
+                        name="tax_auth_password"
+                        class="oe_inline"
+                        string="Password"
+                        readonly="0"
+                        password="True"
+                    />
+                </group>
+            </group>
+        </field>
+    </record>
+
+</odoo>

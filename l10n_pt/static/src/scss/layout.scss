@@ -1,0 +1,70 @@
+.pt_doc_name {
+    margin-top: 5mm;
+}
+
+.pt_certification_text {
+    color: gray("700");
+    font-size: 7pt;
+    font-style: italic;
+    margin-bottom: 3mm;
+}
+
+.pt_multiway_tag {
+    font-size: 7pt;
+    text-transform: uppercase;
+    background-color: gray("500");
+    color: white;
+    /*margin-top:             3mm;*/
+    /*float:                  right;*/
+    padding-left: 1mm;
+    padding-right: 1mm;
+    border-radius: 0.5mm;
+    -moz-border-radius: 0.5mm;
+    -webkit-border-radius: 0.5mm;
+}
+
+.pt_cancelled {
+    color: white;
+    background-color: firebrick; // #b22222
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+    left-margin: 1mm;
+    padding-left: 1mm;
+    padding-right: 1mm;
+}
+
+.pt_vat_list {
+    .pt_vat_exemption_reason {
+        font-size: 50%;
+        font-style: italic;
+        vertical-align: super;
+    }
+
+    &:nth-child(n + 2)::before {
+        content: ", ";
+    }
+}
+
+.pt_vat_exemption_reason_list {
+    //font-size: x-small;
+    font-style: italic;
+
+    span:nth-child(n + 2)::before {
+        content: "; ";
+    }
+}
+
+/* Standard Odoo layouts fixing */
+
+.o_report_layout_background {
+    .row > div > table,
+    div#total table {
+        tr {
+            td:first-child {
+                white-space: nowrap;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!-- Account Move Report -->
+    <report
+        id="action_report_account_move"
+        model="account.move"
+        report_type="qweb-pdf"
+        name="l10n_pt_accounting.report_account_move"
+        string="Journal Entries"
+        menu="True"
+        attachment_use="False"
+        multi="False"
+        print_report_name="'Journal Entry ' + (object.name or '').replace('/','_') + '.pdf'"
+    />
+
+</odoo>

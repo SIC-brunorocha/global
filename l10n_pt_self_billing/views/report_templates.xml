@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="report_assets_common" inherit_id="web.report_assets_common">
+        <xpath expr="." position="inside">
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/l10n_pt_self_billing/static/src/scss/layout_self_billing.scss"
+            />
+        </xpath>
+    </template>
+
+    <template id="external_layout_self_billing">
+        <div class="header">
+            <div class="o_self_billing_header">
+                <!--
+                <img t-if="o.partner_id.image" t-att-src="image_data_uri(o.partner_id.image)" class="float-left"
+                     alt="Logo"/>
+                -->
+                <div class="float-left company_address">
+                    <div>
+                        <strong t-esc="o.partner_id.legal_name or o.partner_id.name" />
+                    </div>
+                    <span
+                        t-field="o.partner_id"
+                        t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;], &quot;no_marker&quot;: true}"
+                    />
+                </div>
+                <div class="clearfix mb8" />
+            </div>
+        </div>
+
+        <div
+            class="article o_report_layout_self_billing"
+            t-att-data-oe-model="o and o._name"
+            t-att-data-oe-id="o and o.id"
+            t-att-data-oe-lang="o and o.env.context.get('lang')"
+        >
+            <t t-call="web.address_layout" />
+            <t t-raw="0" />
+        </div>
+
+        <div class="footer o_self_billing_footer">
+            <t t-call="l10n_pt.certification_text" />
+            <div class="text-center">
+                <ul class="list-inline">
+                    <li t-if="o.partner_id.phone" class="list-inline-item">Tel: <span
+                            t-field="o.partner_id.phone"
+                        /></li>
+                    <li t-if="o.partner_id.email" class="list-inline-item">Mail: <span
+                            t-field="o.partner_id.email"
+                        /></li>
+                    <li t-if="o.partner_id.website" class="list-inline-item">Web: <span
+                            t-field="o.partner_id.website"
+                        /></li>
+                    <li t-if="o.partner_id.vat" class="list-inline-item"><t
+                            t-esc="(o.partner_id.country_id.vat_label or 'Tax ID').replace(' ','\N{NO-BREAK SPACE}')"
+                        />: <span
+                            t-esc="o.partner_id.vat.replace(' ','\N{NO-BREAK SPACE}')"
+                        /></li>
+                </ul>
+                <!--<div t-field="company.report_footer"/>-->
+                <div t-if="report_type == 'pdf'">
+                    Page: <span class="page" /> / <span class="topage" />
+                </div>
+            </div>
+        </div>
+    </template>
+
+</odoo>

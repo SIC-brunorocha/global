@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Add certification text on the 4 layout footers -->
+    <template id="certification_text">
+        <div
+            t-if="pt_report and pt_certification_text"
+            class="text-center pt_certification_text"
+        >
+            <span t-esc="pt_certification_text" /><span t-esc="pt_fiscal_docs" />
+        </div>
+    </template>
+    <template
+        id="external_layout_background"
+        inherit_id="web.external_layout_background"
+    >
+        <xpath expr="//div[contains(concat(' ', @t-attf-class, ' '), ' footer ')]/div" position="before">
+            <t t-call="l10n_pt.certification_text" />
+        </xpath>
+    </template>
+    <template id="external_layout_boxed" inherit_id="web.external_layout_boxed">
+        <xpath expr="//div[contains(concat(' ', @t-attf-class, ' '), ' footer ')]/div" position="before">
+            <t t-call="l10n_pt.certification_text" />
+        </xpath>
+    </template>
+    <template id="external_layout_clean" inherit_id="web.external_layout_clean">
+        <xpath expr="//div[contains(concat(' ', @t-attf-class, ' '), ' footer ')]/div" position="before">
+            <t t-call="l10n_pt.certification_text" />
+        </xpath>
+    </template>
+    <template id="external_layout_standard" inherit_id="web.external_layout_standard">
+        <xpath expr="//div[contains(concat(' ', @t-attf-class, ' '), ' footer ')]/div" position="before">
+            <t t-call="l10n_pt.certification_text" />
+        </xpath>
+    </template>
+
+</odoo>
